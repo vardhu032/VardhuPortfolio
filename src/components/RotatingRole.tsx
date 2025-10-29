@@ -6,6 +6,7 @@ const roles = [
     'Smart Contract Engineer', 
     'Web3 Architect',
     'DApp Developer',
+    'Vibe Coder'
 ]
 
 function RotatingRole () {
