@@ -11,7 +11,7 @@ export default function Hero() {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center px-4 relative">
       <div className="max-w-4xl w-full">
-        <h1 className="text-2xl text-gray-300">Hi, I am</h1>
+        <h1 className="text-xl md:text-2xl text-gray-300">Hi, I am</h1>
         <PixelScanner />
         <RotatingRole />
         <p className="text-gray-400 text-center mt-8 text-lg max-w-2xl mx-auto">
