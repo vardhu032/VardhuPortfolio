@@ -9,7 +9,7 @@ interface navigationProps {
 function Navigation({isStrangerThingsMode, setIsStrangerThingsMode} : navigationProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
-  const navLinks = ["about", "Skill", "Projects", "Contact"];
+  const navLinks = ["About", "Skill", "Projects", "Contact"];
 
   useEffect (() => {
     if(!audioRef.current) return;
