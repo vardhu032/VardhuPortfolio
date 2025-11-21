@@ -3,7 +3,7 @@ import {useEffect, useRef} from "react";
 const StrangerThingsBackground = () => {
     const canvasRef = useRef<HTMLCanvasElement>(null);
     const particleRef = useRef<any[]>([]);
-    const animationRef = useRef<number>();
+    const animationRef = useRef<number | null>(null);
 
     useEffect(() => {
         const canvas = canvasRef.current;
